@@ -1,0 +1,22 @@
+# Ignore Python artifacts and local environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code files
+.vscode/
+.idea/
+
+# Local workspace files
+CareerMatch-AI-Agent-tree.txt
+OPEN_INNER_FOLDER.md

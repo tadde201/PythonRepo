@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Azure Data Engineer",
+    "company": "Contoso Analytics",
+    "location": "Remote",
+    "description": "Design and maintain Azure Data Factory pipelines, build data warehouses in SQL Server and Azure Synapse, and collaborate with BI teams using Power BI. Must know SQL, Python, and ETL best practices."
+  },
+  {
+    "title": "Business Intelligence Developer",
+    "company": "Fabrikam Solutions",
+    "location": "Maryland",
+    "description": "Develop Power BI dashboards, author DAX calculations, and support SQL Server reporting solutions. Experience with SSIS, Azure Data Factory, and Azure analysis services is preferred."
+  },
+  {
+    "title": "Data Analyst",
+    "company": "Northwind Traders",
+    "location": "Hybrid",
+    "description": "Analyze business datasets, generate insights from SQL Server data, and partner with stakeholders to create reports. Strong skills in SQL, Python, and Azure data services are required."
+  }
+]

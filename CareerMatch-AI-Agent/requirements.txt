@@ -1,0 +1,10 @@
+openai
+langchain
+chromadb
+pandas
+python-dotenv
+pyodbc
+fastapi
+uvicorn
+requests
+beautifulsoup4

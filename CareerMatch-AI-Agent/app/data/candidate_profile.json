@@ -1,0 +1,28 @@
+{
+  "name": "Dereje",
+  "location": "Maryland",
+  "target_roles": [
+    "Data Engineer",
+    "Data Analyst",
+    "BI Developer",
+    "SQL Developer"
+  ],
+  "skills": [
+    "SQL Server",
+    "Power BI",
+    "DAX",
+    "SSIS",
+    "Azure Data Factory",
+    "Databricks",
+    "Python",
+    "ETL",
+    "Data Warehouse",
+    "Azure"
+  ],
+  "experience": [
+    "Database development",
+    "Data analysis",
+    "Business intelligence",
+    "ETL development"
+  ]
+}
