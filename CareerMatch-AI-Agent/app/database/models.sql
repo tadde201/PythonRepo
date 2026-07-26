@@ -12,4 +12,3 @@ CREATE TABLE Jobs
     MatchScore INT,
     CreatedDate DATETIME DEFAULT GETDATE()
 );
-select * from Jobs

@@ -16,6 +16,18 @@ python app/main.py --dry-run
 
 Use `--dry-run` when `OPENAI_API_KEY` is not configured.
 
+```bash
+python app/main.py --dry-run --no-email
+```
+
+Use `--no-email` to skip email delivery during local tests.
+
+```bash
+python app/main.py --dry-run --no-email
+```
+
+Use `--no-email` to skip email delivery during local tests.
+
 ## Project structure
 
 - `app/main.py` - entry point and pipeline orchestration

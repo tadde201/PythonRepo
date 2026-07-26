@@ -99,6 +99,11 @@ def parse_arguments() -> argparse.Namespace:
         action="store_true",
         help="Run without OpenAI and use local matching heuristics",
     )
+    parser.add_argument(
+        "--no-email",
+        action="store_true",
+        help="Skip sending email notifications",
+    )
     return parser.parse_args()
 
 
@@ -125,18 +130,23 @@ def main() -> None:
     save_results(results, Path(args.output))
     print(f"Saved {len(results)} match results to {args.output}")
 
-    if EMAIL_FROM and EMAIL_TO:
+    if not args.no_email and EMAIL_FROM and EMAIL_TO:
         message_body = "\n".join(
             [format_job_output(result["job"], result["match"]) for result in results]
         )
-        send_email(
+        email_sent = send_email(
             subject="CareerMatch AI Job Match Results",
             body=message_body,
             to_address=EMAIL_TO,
             from_address=EMAIL_FROM,
             smtp_server=SMTP_SERVER,
         )
-        print(f"Notification sent to {EMAIL_TO}")
+        if email_sent:
+            print(f"Notification sent to {EMAIL_TO}")
+        else:
+            print("Notification not sent. See warning above.")
+    elif args.no_email:
+        print("Email notifications skipped because --no-email was provided.")
 
 
 if __name__ == "__main__":
