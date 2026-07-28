@@ -102,10 +102,12 @@ def _analyze_job_locally(resume_text: str, job_description: str) -> str:
         "machine learning", "deep learning", "nlp", "natural language processing",
         "data analysis", "data science", "analytics",
         "api", "rest", "graphql", "microservices",
-        "sql", "nosql", "mongodb", "postgresql", "mysql",
+        "sql", "nosql", "mongodb", "postgresql", "mysql", "sql server",
         "docker", "kubernetes", "aws", "azure", "gcp", "cloud",
         "react", "angular", "vue", "nodejs", "django", "flask",
-        "git", "ci/cd", "devops", "agile", "scrum"
+        "git", "ci/cd", "devops", "agile", "scrum",
+        "power bi", "dax", "ssis", "etl", "data warehouse",
+        "azure data factory", "databricks"
     ]
     
     # Find matching skills
