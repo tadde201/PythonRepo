@@ -1,1 +1,1 @@
-# Notifications package init
+"""Email notification utilities."""

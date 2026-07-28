@@ -1,1 +1,1 @@
-# Jobs package init
+"""Job collection and parsing utilities."""

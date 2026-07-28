@@ -1,1 +1,1 @@
-# AI package init
+"""AI module for job matching and analysis."""
